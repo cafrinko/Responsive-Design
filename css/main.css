@@ -77,6 +77,10 @@ nav a:hover {
   font-size: 2em;
 }
 
+img {
+    max-width: 100%;
+}
+
 .main aside {
   color: white;
   padding: 0px 5% 10px;
@@ -131,6 +135,11 @@ Media Queries
   .main article {
     float: left;
     width: 57%;
+  }
+
+  .responsiveDesign {
+    float: right;
+    width: 38%;
   }
 
   .main aside {
